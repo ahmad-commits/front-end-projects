@@ -1,0 +1,22 @@
+{
+  "name": "front-end-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmad-commits/front-end-projects.git"
+  },
+  "author": "Ahmad DAud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmad-commits/front-end-projects/issues"
+  },
+  "homepage": "https://github.com/ahmad-commits/front-end-projects#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
