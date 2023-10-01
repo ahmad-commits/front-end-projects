@@ -1,0 +1,3295 @@
+{
+    "currentPage": 1,
+    "data": {
+        "__typename": "Search",
+        "availableFilters": [],
+        "availableSortTypes": [
+            {
+                "__typename": "SortTypeOption",
+                "code": "RECOMMENDATION",
+                "name": "Recommended flights"
+            },
+            {
+                "__typename": "SortTypeOption",
+                "code": "CARRIER_PROMO",
+                "name": "Promotional offers"
+            },
+            {
+                "__typename": "SortTypeOption",
+                "code": "CHEAP_TRIP",
+                "name": "Cheapest first"
+            },
+            {
+                "__typename": "SortTypeOption",
+                "code": "SHORT_TRIP",
+                "name": "Shortest travel time"
+            }
+        ],
+        "carrierCodes": [],
+        "carrierNames": [],
+        "filteredFlightsCount": 7,
+        "flights": [
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 10,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": {
+                            "__typename": "IncludedCheckedBaggage",
+                            "pieces": 2,
+                            "weight": 23,
+                            "weightUnit": "kg"
+                        },
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "7M8",
+                                "arrivedAt": "2023-09-30T13:00",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-09-30T06:05",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CAS",
+                                    "cityName": "Casablanca",
+                                    "code": "CMN",
+                                    "name": "Casablanca-Mohamed V"
+                                },
+                                "duration": 24900000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AT290",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 10,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": {
+                                    "__typename": "IncludedCheckedBaggage",
+                                    "pieces": 2,
+                                    "weight": 23,
+                                    "weightUnit": "kg"
+                                },
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AT",
+                                    "name": "Royal Air Maroc"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AT",
+                                    "name": "Royal Air Maroc"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "LAD",
+                                    "cityName": "Luanda",
+                                    "code": "LAD",
+                                    "name": "Luanda"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 9,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 9300000,
+                                "segmentId": "0E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "Boeing 737-800 (winglets)",
+                                "arrivedAt": "2023-09-30T19:30",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-09-30T15:35",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "PAR",
+                                    "cityName": "Paris",
+                                    "code": "ORY",
+                                    "name": "Paris Orly"
+                                },
+                                "duration": 10500000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AT750",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 10,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": {
+                                    "__typename": "IncludedCheckedBaggage",
+                                    "pieces": 2,
+                                    "weight": 23,
+                                    "weightUnit": "kg"
+                                },
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AT",
+                                    "name": "Royal Air Maroc"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AT",
+                                    "name": "Royal Air Maroc"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CAS",
+                                    "cityName": "Casablanca",
+                                    "code": "CMN",
+                                    "name": "Casablanca-Mohamed V"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 9,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "01"
+                            }
+                        ]
+                    }
+                ],
+                "id": "366268750554069",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 10,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": {
+                    "__typename": "IncludedCheckedBaggage",
+                    "pieces": 2,
+                    "weight": 23,
+                    "weightUnit": "kg"
+                },
+                "includedExtraProducts": [
+                    {
+                        "__typename": "IncludedExtraProduct",
+                        "id": "6",
+                        "texts": {
+                            "__typename": "ExtraProductTexts",
+                            "name": "Checked baggage",
+                            "productSummaryAlternativeName": null,
+                            "readMoreText": null,
+                            "receiptText": null,
+                            "salesAbstract": "On this trip you are allowed 2X23 kg"
+                        }
+                    }
+                ],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "AT290-30Sep23-V_AT750-30Sep23-V,13nyj51",
+                "shareableUrl": "https://flights-us.gotogate.com/air/LADPAR30SEP/1/-/-/c:Y?selectionKey=AT290-30Sep23-V_AT750-30Sep23-V,13nyj51",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3662687505540690",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": null,
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 60854
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 19590
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3662687505540690"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": null,
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 60854
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 19590
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3662687505540690"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [
+                    "PRICE",
+                    "SPEED",
+                    "STAY",
+                    "WEIGHTED"
+                ],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3662687505540690"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            },
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [
+                    {
+                        "__typename": "ExtraProduct",
+                        "configuration": {
+                            "__typename": "Configuration",
+                            "productPreSelection": "NONE"
+                        },
+                        "name": "Checked baggage",
+                        "productId": "6",
+                        "selectedWithTrip": false,
+                        "sellSpecification": {
+                            "__typename": "SellSpecificationBaggageNew",
+                            "sellPriceBaggage": [
+                                {
+                                    "__typename": "SellPriceBaggageNew",
+                                    "maxWeight": 23,
+                                    "numberOfUnits": 1,
+                                    "price": {
+                                        "__typename": "Price",
+                                        "price": {
+                                            "__typename": "CurrencyAmount",
+                                            "currency": {
+                                                "__typename": "Currency",
+                                                "code": "USD"
+                                            },
+                                            "value": 11184
+                                        }
+                                    },
+                                    "weightUnit": "kg"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 10,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": null,
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "339",
+                                "arrivedAt": "2023-10-01T06:45",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-09-30T22:55",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "LIS",
+                                    "cityName": "Lisbon",
+                                    "code": "LIS",
+                                    "name": "Lisbon"
+                                },
+                                "duration": 28200000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "TP286",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 10,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "TP",
+                                    "name": "TAP Portugal"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "TP",
+                                    "name": "TAP Portugal"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "LAD",
+                                    "cityName": "Luanda",
+                                    "code": "LAD",
+                                    "name": "Luanda"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 6,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 20400000,
+                                "segmentId": "0E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "32Q",
+                                "arrivedAt": "2023-10-01T15:50",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-10-01T12:25",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "PAR",
+                                    "cityName": "Paris",
+                                    "code": "ORY",
+                                    "name": "Paris Orly"
+                                },
+                                "duration": 8700000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "TP442",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 10,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "TP",
+                                    "name": "TAP Portugal"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "TP",
+                                    "name": "TAP Portugal"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "LIS",
+                                    "cityName": "Lisbon",
+                                    "code": "LIS",
+                                    "name": "Lisbon"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 6,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "01"
+                            }
+                        ]
+                    }
+                ],
+                "id": "366268750554070",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 10,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": null,
+                "includedExtraProducts": [],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "TP286-30Sep23-W_TP442-01Oct23-W,14kw2h0",
+                "shareableUrl": "https://flights-us.gotogate.com/air/LADPAR30SEP/1/-/-/c:Y?selectionKey=TP286-30Sep23-W_TP442-01Oct23-W,14kw2h0",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3662687505540700",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": null,
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 97602
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 22575
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3662687505540700"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": null,
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 97602
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 22575
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3662687505540700"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3662687505540700"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            },
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 10,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": {
+                            "__typename": "IncludedCheckedBaggage",
+                            "pieces": 1,
+                            "weight": 23,
+                            "weightUnit": "kg"
+                        },
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "339",
+                                "arrivedAt": "2023-10-01T06:45",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-09-30T22:55",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "LIS",
+                                    "cityName": "Lisbon",
+                                    "code": "LIS",
+                                    "name": "Lisbon"
+                                },
+                                "duration": 28200000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "TP286",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 10,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": {
+                                    "__typename": "IncludedCheckedBaggage",
+                                    "pieces": 1,
+                                    "weight": 23,
+                                    "weightUnit": "kg"
+                                },
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "TP",
+                                    "name": "TAP Portugal"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "TP",
+                                    "name": "TAP Portugal"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "LAD",
+                                    "cityName": "Luanda",
+                                    "code": "LAD",
+                                    "name": "Luanda"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 9,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 8100000,
+                                "segmentId": "0E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "Airbus A320-100/200",
+                                "arrivedAt": "2023-10-01T10:00",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-10-01T09:00",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "OPO",
+                                    "cityName": "Porto",
+                                    "code": "OPO",
+                                    "name": "Porto"
+                                },
+                                "duration": 3600000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "TP1924",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 10,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": {
+                                    "__typename": "IncludedCheckedBaggage",
+                                    "pieces": 1,
+                                    "weight": 23,
+                                    "weightUnit": "kg"
+                                },
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "TP",
+                                    "name": "TAP Portugal"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "TP",
+                                    "name": "TAP Portugal"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "LIS",
+                                    "cityName": "Lisbon",
+                                    "code": "LIS",
+                                    "name": "Lisbon"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 9,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "01"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 14400000,
+                                "segmentId": "1E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "Airbus A320-100/200",
+                                "arrivedAt": "2023-10-01T17:10",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-10-01T14:00",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "PAR",
+                                    "cityName": "Paris",
+                                    "code": "ORY",
+                                    "name": "Paris Orly"
+                                },
+                                "duration": 7800000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "TP456",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 10,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": {
+                                    "__typename": "IncludedCheckedBaggage",
+                                    "pieces": 1,
+                                    "weight": 23,
+                                    "weightUnit": "kg"
+                                },
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "TP",
+                                    "name": "TAP Portugal"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "TP",
+                                    "name": "TAP Portugal"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "OPO",
+                                    "cityName": "Porto",
+                                    "code": "OPO",
+                                    "name": "Porto"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 9,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "02"
+                            }
+                        ]
+                    }
+                ],
+                "id": "366268750554066",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 10,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": {
+                    "__typename": "IncludedCheckedBaggage",
+                    "pieces": 1,
+                    "weight": 23,
+                    "weightUnit": "kg"
+                },
+                "includedExtraProducts": [
+                    {
+                        "__typename": "IncludedExtraProduct",
+                        "id": "6",
+                        "texts": {
+                            "__typename": "ExtraProductTexts",
+                            "name": "Checked baggage",
+                            "productSummaryAlternativeName": null,
+                            "readMoreText": null,
+                            "receiptText": null,
+                            "salesAbstract": "On this trip you are allowed 1X23 kg"
+                        }
+                    }
+                ],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "TP286-30Sep23-Q_TP1924-01Oct23-Q_TP456-01Oct23-Q,kz0bfz",
+                "shareableUrl": "https://flights-us.gotogate.com/air/LADPAR30SEP/1/-/-/c:Y?selectionKey=TP286-30Sep23-Q_TP1924-01Oct23-Q_TP456-01Oct23-Q,kz0bfz",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3662687505540660",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": null,
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 117735
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 23879
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3662687505540660"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": null,
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 117735
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 23879
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3662687505540660"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3662687505540660"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            },
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 7,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": {
+                            "__typename": "IncludedCheckedBaggage",
+                            "pieces": 2,
+                            "weight": 23,
+                            "weightUnit": "kg"
+                        },
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "Boeing 777-300ER",
+                                "arrivedAt": "2023-10-01T05:10",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-09-30T18:25",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DXB",
+                                    "cityName": "Dubai",
+                                    "code": "DXB",
+                                    "name": "Dubai"
+                                },
+                                "duration": 27900000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "EK794",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 7,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": {
+                                    "__typename": "IncludedCheckedBaggage",
+                                    "pieces": 2,
+                                    "weight": 23,
+                                    "weightUnit": "kg"
+                                },
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "EK",
+                                    "name": "Emirates Airline"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "EK",
+                                    "name": "Emirates Airline"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "LAD",
+                                    "cityName": "Luanda",
+                                    "code": "LAD",
+                                    "name": "Luanda"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 9,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 11400000,
+                                "segmentId": "0E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "388",
+                                "arrivedAt": "2023-10-01T13:30",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-10-01T08:20",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "PAR",
+                                    "cityName": "Paris",
+                                    "code": "CDG",
+                                    "name": "Paris Charles De Gaulle"
+                                },
+                                "duration": 25800000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "EK73",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 7,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": {
+                                    "__typename": "IncludedCheckedBaggage",
+                                    "pieces": 2,
+                                    "weight": 23,
+                                    "weightUnit": "kg"
+                                },
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "EK",
+                                    "name": "Emirates Airline"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "EK",
+                                    "name": "Emirates Airline"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DXB",
+                                    "cityName": "Dubai",
+                                    "code": "DXB",
+                                    "name": "Dubai"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 9,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "01"
+                            }
+                        ]
+                    }
+                ],
+                "id": "366268750554071",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 7,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": {
+                    "__typename": "IncludedCheckedBaggage",
+                    "pieces": 2,
+                    "weight": 23,
+                    "weightUnit": "kg"
+                },
+                "includedExtraProducts": [
+                    {
+                        "__typename": "IncludedExtraProduct",
+                        "id": "6",
+                        "texts": {
+                            "__typename": "ExtraProductTexts",
+                            "name": "Checked baggage",
+                            "productSummaryAlternativeName": null,
+                            "readMoreText": null,
+                            "receiptText": null,
+                            "salesAbstract": "On this trip you are allowed 2X23 kg"
+                        }
+                    }
+                ],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "EK794-30Sep23-U_EK73-01Oct23-U,11hlyqz",
+                "shareableUrl": "https://flights-us.gotogate.com/air/LADPAR30SEP/1/-/-/c:Y?selectionKey=EK794-30Sep23-U_EK73-01Oct23-U,11hlyqz",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3662687505540710",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": null,
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 133905
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 21915
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3662687505540710"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": null,
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 133905
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 21915
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3662687505540710"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3662687505540710"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            },
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 8,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": {
+                            "__typename": "IncludedCheckedBaggage",
+                            "pieces": 2,
+                            "weight": 23,
+                            "weightUnit": "kg"
+                        },
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "De Havilland Canada DHC-8 Dash 8",
+                                "arrivedAt": "2023-09-30T15:35",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-09-30T14:15",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "FIH",
+                                    "cityName": "Kinshasa",
+                                    "code": "FIH",
+                                    "name": "Kinshasa"
+                                },
+                                "duration": 4800000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "DT540",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 8,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": {
+                                    "__typename": "IncludedCheckedBaggage",
+                                    "pieces": 2,
+                                    "weight": 23,
+                                    "weightUnit": "kg"
+                                },
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "DT",
+                                    "name": "Taag Angola Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "DT",
+                                    "name": "Taag Angola Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "LAD",
+                                    "cityName": "Luanda",
+                                    "code": "LAD",
+                                    "name": "Luanda"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 9,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 12300000,
+                                "segmentId": "0E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "Boeing 777-200",
+                                "arrivedAt": "2023-10-01T06:05",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-09-30T19:00",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "PAR",
+                                    "cityName": "Paris",
+                                    "code": "CDG",
+                                    "name": "Paris Charles De Gaulle"
+                                },
+                                "duration": 36300000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AF722",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 8,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": {
+                                    "__typename": "IncludedCheckedBaggage",
+                                    "pieces": 2,
+                                    "weight": 23,
+                                    "weightUnit": "kg"
+                                },
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AF",
+                                    "name": "Air France"
+                                },
+                                "numberOfTechnicalStops": 1,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AF",
+                                    "name": "Air France"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "FIH",
+                                    "cityName": "Kinshasa",
+                                    "code": "FIH",
+                                    "name": "Kinshasa"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 9,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "01"
+                            }
+                        ]
+                    }
+                ],
+                "id": "366268750554072",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 8,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": {
+                    "__typename": "IncludedCheckedBaggage",
+                    "pieces": 2,
+                    "weight": 23,
+                    "weightUnit": "kg"
+                },
+                "includedExtraProducts": [
+                    {
+                        "__typename": "IncludedExtraProduct",
+                        "id": "6",
+                        "texts": {
+                            "__typename": "ExtraProductTexts",
+                            "name": "Checked baggage",
+                            "productSummaryAlternativeName": null,
+                            "readMoreText": null,
+                            "receiptText": null,
+                            "salesAbstract": "On this trip you are allowed 2X23 kg"
+                        }
+                    }
+                ],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "DT540-30Sep23-H_AF722-30Sep23-Y,1367eq4",
+                "shareableUrl": "https://flights-us.gotogate.com/air/LADPAR30SEP/1/-/-/c:Y?selectionKey=DT540-30Sep23-H_AF722-30Sep23-Y,1367eq4",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3662687505540720",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 52936
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 402293
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 38654
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3662687505540720"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 52936
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 402293
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 38654
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3662687505540720"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3662687505540720"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            },
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 8,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": {
+                            "__typename": "IncludedCheckedBaggage",
+                            "pieces": 2,
+                            "weight": 23,
+                            "weightUnit": "kg"
+                        },
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "Boeing 737-700",
+                                "arrivedAt": "2023-09-30T23:30",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-09-30T20:30",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "LOS",
+                                    "cityName": "Lagos",
+                                    "code": "LOS",
+                                    "name": "Lagos"
+                                },
+                                "duration": 10800000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "DT564",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 8,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": {
+                                    "__typename": "IncludedCheckedBaggage",
+                                    "pieces": 2,
+                                    "weight": 23,
+                                    "weightUnit": "kg"
+                                },
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "DT",
+                                    "name": "Taag Angola Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "DT",
+                                    "name": "Taag Angola Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "LAD",
+                                    "cityName": "Luanda",
+                                    "code": "LAD",
+                                    "name": "Luanda"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 9,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 85200000,
+                                "segmentId": "0E",
+                                "types": [
+                                    "OVERNIGHT_STAY"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "Airbus A340-300",
+                                "arrivedAt": "2023-10-02T06:40",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-10-01T23:10",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "FRA",
+                                    "cityName": "Frankfurt",
+                                    "code": "FRA",
+                                    "name": "Frankfurt"
+                                },
+                                "duration": 23400000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "LH569",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 8,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": {
+                                    "__typename": "IncludedCheckedBaggage",
+                                    "pieces": 2,
+                                    "weight": 23,
+                                    "weightUnit": "kg"
+                                },
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "LH",
+                                    "name": "Lufthansa"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "LH",
+                                    "name": "Lufthansa"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "LOS",
+                                    "cityName": "Lagos",
+                                    "code": "LOS",
+                                    "name": "Lagos"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 9,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "01"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 6600000,
+                                "segmentId": "1E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "Airbus A320-100/200",
+                                "arrivedAt": "2023-10-02T09:45",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-10-02T08:30",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "PAR",
+                                    "cityName": "Paris",
+                                    "code": "CDG",
+                                    "name": "Paris Charles De Gaulle"
+                                },
+                                "duration": 4500000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "LH1028",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 8,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": {
+                                    "__typename": "IncludedCheckedBaggage",
+                                    "pieces": 2,
+                                    "weight": 23,
+                                    "weightUnit": "kg"
+                                },
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "LH",
+                                    "name": "Lufthansa"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "LH",
+                                    "name": "Lufthansa"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "FRA",
+                                    "cityName": "Frankfurt",
+                                    "code": "FRA",
+                                    "name": "Frankfurt"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 9,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "02"
+                            }
+                        ]
+                    }
+                ],
+                "id": "366268750554067",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 8,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": {
+                    "__typename": "IncludedCheckedBaggage",
+                    "pieces": 2,
+                    "weight": 23,
+                    "weightUnit": "kg"
+                },
+                "includedExtraProducts": [
+                    {
+                        "__typename": "IncludedExtraProduct",
+                        "id": "6",
+                        "texts": {
+                            "__typename": "ExtraProductTexts",
+                            "name": "Checked baggage",
+                            "productSummaryAlternativeName": null,
+                            "readMoreText": null,
+                            "receiptText": null,
+                            "salesAbstract": "On this trip you are allowed 2X23 kg"
+                        }
+                    }
+                ],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "DT564-30Sep23-H_LH569-01Oct23-Y_LH1028-02Oct23-Y,jn7lqi",
+                "shareableUrl": "https://flights-us.gotogate.com/air/LADPAR30SEP/1/-/-/c:Y?selectionKey=DT564-30Sep23-H_LH569-01Oct23-Y_LH1028-02Oct23-Y,jn7lqi",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3662687505540670",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": null,
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 523264
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 30531
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3662687505540670"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": null,
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 523264
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 30531
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3662687505540670"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3662687505540670"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            },
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 8,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": {
+                            "__typename": "IncludedCheckedBaggage",
+                            "pieces": 2,
+                            "weight": 23,
+                            "weightUnit": "kg"
+                        },
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "De Havilland Canada DHC-8 Dash 8",
+                                "arrivedAt": "2023-09-30T15:35",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-09-30T14:15",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "FIH",
+                                    "cityName": "Kinshasa",
+                                    "code": "FIH",
+                                    "name": "Kinshasa"
+                                },
+                                "duration": 4800000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "DT540",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 8,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": {
+                                    "__typename": "IncludedCheckedBaggage",
+                                    "pieces": 2,
+                                    "weight": 23,
+                                    "weightUnit": "kg"
+                                },
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "DT",
+                                    "name": "Taag Angola Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "DT",
+                                    "name": "Taag Angola Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "LAD",
+                                    "cityName": "Luanda",
+                                    "code": "LAD",
+                                    "name": "Luanda"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 9,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 21600000,
+                                "segmentId": "0E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "Airbus A330-300",
+                                "arrivedAt": "2023-10-01T06:35",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-09-30T21:35",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "BRU",
+                                    "cityName": "Brussels",
+                                    "code": "BRU",
+                                    "name": "Brussels"
+                                },
+                                "duration": 28800000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "SN358",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 8,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": {
+                                    "__typename": "IncludedCheckedBaggage",
+                                    "pieces": 2,
+                                    "weight": 23,
+                                    "weightUnit": "kg"
+                                },
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "SN",
+                                    "name": "Brussels Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "SN",
+                                    "name": "Brussels Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "FIH",
+                                    "cityName": "Kinshasa",
+                                    "code": "FIH",
+                                    "name": "Kinshasa"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 9,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "01"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 5100000,
+                                "segmentId": "1E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "Airbus A320-100/200",
+                                "arrivedAt": "2023-10-01T09:00",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-10-01T08:00",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "PAR",
+                                    "cityName": "Paris",
+                                    "code": "CDG",
+                                    "name": "Paris Charles De Gaulle"
+                                },
+                                "duration": 3600000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "SN3633",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 8,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": {
+                                    "__typename": "IncludedCheckedBaggage",
+                                    "pieces": 2,
+                                    "weight": 23,
+                                    "weightUnit": "kg"
+                                },
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "SN",
+                                    "name": "Brussels Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "SN",
+                                    "name": "Brussels Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "BRU",
+                                    "cityName": "Brussels",
+                                    "code": "BRU",
+                                    "name": "Brussels"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 9,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "02"
+                            }
+                        ]
+                    }
+                ],
+                "id": "366268750554068",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 8,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": {
+                    "__typename": "IncludedCheckedBaggage",
+                    "pieces": 2,
+                    "weight": 23,
+                    "weightUnit": "kg"
+                },
+                "includedExtraProducts": [
+                    {
+                        "__typename": "IncludedExtraProduct",
+                        "id": "6",
+                        "texts": {
+                            "__typename": "ExtraProductTexts",
+                            "name": "Checked baggage",
+                            "productSummaryAlternativeName": null,
+                            "readMoreText": null,
+                            "receiptText": null,
+                            "salesAbstract": "On this trip you are allowed 2X23 kg"
+                        }
+                    }
+                ],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "DT540-30Sep23-H_SN358-30Sep23-Y_SN3633-01Oct23-Y,k49fxd",
+                "shareableUrl": "https://flights-us.gotogate.com/air/LADPAR30SEP/1/-/-/c:Y?selectionKey=DT540-30Sep23-H_SN358-30Sep23-Y_SN3633-01Oct23-Y,k49fxd",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3662687505540680",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": null,
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 526949
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 36675
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3662687505540680"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": null,
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 526949
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 36675
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3662687505540680"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3662687505540680"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            }
+        ],
+        "flightsCount": 7,
+        "quickSortPrices": {
+            "__typename": "QuickSortPrices",
+            "carrierPromo": {
+                "__typename": "CurrencyAmount",
+                "currency": {
+                    "__typename": "Currency",
+                    "code": "USD"
+                },
+                "value": 60854
+            },
+            "cheapTrip": {
+                "__typename": "CurrencyAmount",
+                "currency": {
+                    "__typename": "Currency",
+                    "code": "USD"
+                },
+                "value": 60854
+            },
+            "recommendation": {
+                "__typename": "CurrencyAmount",
+                "currency": {
+                    "__typename": "Currency",
+                    "code": "USD"
+                },
+                "value": 60854
+            },
+            "shortTrip": {
+                "__typename": "CurrencyAmount",
+                "currency": {
+                    "__typename": "Currency",
+                    "code": "USD"
+                },
+                "value": 60854
+            }
+        },
+        "resultSetMetaData": {
+            "__typename": "ResultSetMetaData",
+            "marketingCarriers": [
+                {
+                    "__typename": "CarrierNew",
+                    "code": "DT",
+                    "name": "Taag Angola Airlines"
+                },
+                {
+                    "__typename": "CarrierNew",
+                    "code": "AT",
+                    "name": "Royal Air Maroc"
+                },
+                {
+                    "__typename": "CarrierNew",
+                    "code": "SN",
+                    "name": "Brussels Airlines"
+                },
+                {
+                    "__typename": "CarrierNew",
+                    "code": "LH",
+                    "name": "Lufthansa"
+                },
+                {
+                    "__typename": "CarrierNew",
+                    "code": "EK",
+                    "name": "Emirates Airline"
+                },
+                {
+                    "__typename": "CarrierNew",
+                    "code": "AF",
+                    "name": "Air France"
+                },
+                {
+                    "__typename": "CarrierNew",
+                    "code": "TP",
+                    "name": "TAP Portugal"
+                }
+            ],
+            "priceRange": {
+                "__typename": "PriceRange",
+                "max": 526949,
+                "min": 60854
+            },
+            "travelTimeRange": {
+                "__typename": "TravelTimeRange",
+                "max": 130500000,
+                "min": 44700000
+            }
+        },
+        "routes": [
+            {
+                "__typename": "TripRoute",
+                "departureAt": "2023-09-30T00:00",
+                "departureDate": "2023-09-30",
+                "departureTimeOfDay": null,
+                "destination": {
+                    "__typename": "RegionNew",
+                    "cityCode": "PAR",
+                    "cityName": "Paris",
+                    "code": "PAR",
+                    "continentCode": "EU",
+                    "continentName": "Europe",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "name": "Paris"
+                },
+                "origin": {
+                    "__typename": "RegionNew",
+                    "cityCode": "LAD",
+                    "cityName": "Luanda",
+                    "code": "LAD",
+                    "continentCode": "AF",
+                    "continentName": "Africa",
+                    "countryCode": "AO",
+                    "countryName": "Angola",
+                    "name": "Luanda"
+                }
+            }
+        ],
+        "searchPath": "/air/LADPAR30SEP/1/-/-/c:Y",
+        "sponsoredTrips": [
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 10,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": {
+                            "__typename": "IncludedCheckedBaggage",
+                            "pieces": 2,
+                            "weight": 23,
+                            "weightUnit": "kg"
+                        },
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "7M8",
+                                "arrivedAt": "2023-09-30T13:00",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-09-30T06:05",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CAS",
+                                    "cityName": "Casablanca",
+                                    "code": "CMN",
+                                    "name": "Casablanca-Mohamed V"
+                                },
+                                "duration": 24900000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AT290",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 10,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": {
+                                    "__typename": "IncludedCheckedBaggage",
+                                    "pieces": 2,
+                                    "weight": 23,
+                                    "weightUnit": "kg"
+                                },
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AT",
+                                    "name": "Royal Air Maroc"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AT",
+                                    "name": "Royal Air Maroc"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "LAD",
+                                    "cityName": "Luanda",
+                                    "code": "LAD",
+                                    "name": "Luanda"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 9,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 9300000,
+                                "segmentId": "0E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "Boeing 737-800 (winglets)",
+                                "arrivedAt": "2023-09-30T19:30",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2023-09-30T15:35",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "PAR",
+                                    "cityName": "Paris",
+                                    "code": "ORY",
+                                    "name": "Paris Orly"
+                                },
+                                "duration": 10500000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AT750",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": 10,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": {
+                                    "__typename": "IncludedCheckedBaggage",
+                                    "pieces": 2,
+                                    "weight": 23,
+                                    "weightUnit": "kg"
+                                },
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AT",
+                                    "name": "Royal Air Maroc"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AT",
+                                    "name": "Royal Air Maroc"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CAS",
+                                    "cityName": "Casablanca",
+                                    "code": "CMN",
+                                    "name": "Casablanca-Mohamed V"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 9,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "01"
+                            }
+                        ]
+                    }
+                ],
+                "id": "366268750554069",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 10,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": {
+                    "__typename": "IncludedCheckedBaggage",
+                    "pieces": 2,
+                    "weight": 23,
+                    "weightUnit": "kg"
+                },
+                "includedExtraProducts": [
+                    {
+                        "__typename": "IncludedExtraProduct",
+                        "id": "6",
+                        "texts": {
+                            "__typename": "ExtraProductTexts",
+                            "name": "Checked baggage",
+                            "productSummaryAlternativeName": null,
+                            "readMoreText": null,
+                            "receiptText": null,
+                            "salesAbstract": "On this trip you are allowed 2X23 kg"
+                        }
+                    }
+                ],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "AT290-30Sep23-V_AT750-30Sep23-V,13nyj51",
+                "shareableUrl": "https://flights-us.gotogate.com/air/LADPAR30SEP/1/-/-/c:Y?selectionKey=AT290-30Sep23-V_AT750-30Sep23-V,13nyj51",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3662687505540690",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": null,
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 60854
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 19590
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3662687505540690"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": null,
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 60854
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 19590
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3662687505540690"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [
+                    "PRICE",
+                    "SPEED",
+                    "STAY",
+                    "WEIGHTED"
+                ],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3662687505540690"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            }
+        ],
+        "travelers": [
+            {
+                "__typename": "SearchTraveler",
+                "ageType": "ADT"
+            }
+        ],
+        "tripCampaigns": [],
+        "type": "ONE_WAY",
+        "validWithVoucher": false
+    },
+    "message": "Successful",
+    "resultsPerPage": 10,
+    "status": true,
+    "totalPages": 1,
+    "totalResultCount": 7
+}
